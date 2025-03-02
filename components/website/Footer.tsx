@@ -1,4 +1,4 @@
-import { InstagramLogoIcon, LinkedInLogoIcon } from "@radix-ui/react-icons";
+import { GitHubLogoIcon, InstagramLogoIcon, LinkedInLogoIcon } from "@radix-ui/react-icons";
 import Image from "next/image";
 
 export default function Footer(){
@@ -22,6 +22,15 @@ export default function Footer(){
         >
           <LinkedInLogoIcon/>
           ekky.mulialasardi
+        </a>
+        <a
+          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
+          href="https://github.com/ekkymulia/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <GitHubLogoIcon/>
+          ekkymulia
         </a>
         <a
           className="flex items-center gap-2 hover:underline hover:underline-offset-4"

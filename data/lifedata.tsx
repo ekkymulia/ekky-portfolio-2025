@@ -1,6 +1,6 @@
 import { BlurFade } from "@/components/magicui/blur-fade";
+import { Badge } from "@/components/ui/badge";
 import PortfolioItem from "@/components/website/PortfolioItem";
-import { Badge } from "lucide-react";
 import { JSX } from "react";
 
 
@@ -17,7 +17,7 @@ const images: string[] = [
     "/assets/gallery/coinfest2.JPG",
     "/assets/gallery/coinfest.JPG"
   ];
-  
+
 export const LifeData: Record<
   string,
   {
