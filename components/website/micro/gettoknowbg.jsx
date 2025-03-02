@@ -1,6 +1,5 @@
 
 import { Particles } from "@/components/magicui/particles";
-import Image from "next/image";
 
 export function GetToKnowBG() {
 

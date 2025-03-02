@@ -1,9 +1,9 @@
-import { LifeData } from "@/app/myself/page";
 import OpenAI from "openai";
 import { ChatCompletionMessageParam, ChatCompletionTool } from "openai/resources/index";
 import { zodResponseFormat } from 'openai/helpers/zod';
 import { z } from "zod";
-import { ProjectsData } from "@/app/projects/page";
+import { LifeData } from "@/data/lifedata";
+import { ProjectsData } from "@/data/projectdata";
 
 // OpenAI client initialization
 const client = new OpenAI({
@@ -12,9 +12,9 @@ const client = new OpenAI({
 });
 
 // Type for function parameters
-interface LifeDataParams {
-  data: string;
-}
+// interface LifeDataParams {
+//   data: string;
+// }
 
 // Function to retrieve life data
 function getKikiLifeData(data: string): string {

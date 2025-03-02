@@ -18,11 +18,11 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Ekky Mulia Lasardi | Personal Portfolio",
     description: "Explore my portfolio featuring AI-driven solutions, innovative projects, and my journey in technology.",
-    url: "https://yourwebsite.com", 
+    url: "https://kymulia.tech", 
     siteName: "Ekky Mulia Lasardi's Portfolio",
     images: [
       {
-        url: "https://yourwebsite.com/path/to/og-image.jpg", // Replace with actual image URL
+        url: "https://kymulia.tech/favicon.ico", // Replace with actual image URL
         width: 1200,
         height: 630,
         alt: "Ekky Mulia Lasardi - Personal Portfolio",
@@ -30,9 +30,8 @@ export const metadata: Metadata = {
     ],
     type: "website",
   },
-  canonical: "https://yourwebsite.com", // Replace with actual URL
+  // canonical: "https://kymulia.tech", // Replace with actual URL
   robots: "index, follow", // Directs search engines to index the page and follow links
-  themeColor: "#ffffff", // Set theme color for mobile browsers
 };
 
 export default function RootLayout({

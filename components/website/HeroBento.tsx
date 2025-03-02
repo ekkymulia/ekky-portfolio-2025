@@ -1,10 +1,6 @@
-import { CalendarIcon, FileTextIcon } from "@radix-ui/react-icons";
-import { Share2Icon, VenetianMask } from "lucide-react";
-
-import { Calendar } from "@/components/ui/calendar";
+import { FileTextIcon } from "@radix-ui/react-icons";
+import { VenetianMask } from "lucide-react";
 import { cn } from "@/lib/utils";
-// import AnimatedBeamMultipleOutputDemo from "@/registry/example/animated-beam-multiple-outputs";
-// import AnimatedListDemo from "@/registry/example/animated-list-demo";
 import { BentoCard, BentoGrid } from "../magicui/bento-grid";
 import { Marquee } from "../magicui/marquee";
 import { GetToKnowBG } from "./micro/gettoknowbg";
