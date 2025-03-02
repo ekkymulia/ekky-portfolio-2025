@@ -65,7 +65,7 @@ export default function PortfolioItem({
         {(links.length > 0 || thumbnailLink !== "") && (
           <div className="mt-4 mb-8">
             {links.length > 0 && (
-              <div className="flex gap-2 justify-start items-start">
+              <div className="flex flex-wrap gap-2 justify-start items-start">
                 {links.map((item, index) => (
                   <Badge key={index} className="inline-flex items-center max-w-fit">
                     <a href={item.link} target="_blank" className="flex gap-1">
