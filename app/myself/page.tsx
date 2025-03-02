@@ -1,11 +1,6 @@
 'use client'
 
-import { File, Folder, Tree } from "@/components/magicui/file-tree";
-import { InteractiveHoverButton } from "@/components/magicui/interactive-hover-button";
-import { MorphingText } from "@/components/magicui/morphing-text";
-import { AnimatedSpan, Terminal, TypingAnimation } from "@/components/magicui/terminal";
 import { TextAnimate } from "@/components/magicui/text-animate";
-// import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/work/accordion";
 import Footer from "@/components/website/Footer";
 import { JSX, useState } from "react";
 import FileTree from "@/components/website/FileTree";

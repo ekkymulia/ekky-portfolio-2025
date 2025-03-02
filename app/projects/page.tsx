@@ -2,7 +2,6 @@ import { Meteors } from "@/components/magicui/meteors";
 import { ShinyButton } from "@/components/magicui/shiny-button";
 import Footer from "@/components/website/Footer";
 import PortfolioItem from "@/components/website/PortfolioItem";
-import { ArrowTopRightIcon } from "@radix-ui/react-icons";
 import { JSX } from "react";
 
 export const ProjectsData: Record<

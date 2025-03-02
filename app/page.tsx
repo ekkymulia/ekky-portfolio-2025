@@ -1,7 +1,5 @@
 import Image from "next/image";
 import HeroBento from "../components/website/HeroBento";
-import { Meteors } from "@/components/magicui/meteors";
-import { InstagramLogoIcon, LinkedInLogoIcon } from "@radix-ui/react-icons";
 import Footer from "@/components/website/Footer";
 import { MorphingText } from "@/components/magicui/morphing-text";
 
