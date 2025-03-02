@@ -7,7 +7,7 @@ import { ProjectsData } from "@/data/projectdata";
 
 // OpenAI client initialization
 const client = new OpenAI({
-  apiKey: process.env.OPENAI_API_KEY as string, // Type assertion for env variable
+  apiKey: process.env.NEXT_PUBLIC_OPENAI_API_KEY as string, // Type assertion for env variable
   dangerouslyAllowBrowser: true,
 });
 
