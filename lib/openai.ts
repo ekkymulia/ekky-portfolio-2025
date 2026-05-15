@@ -96,8 +96,7 @@ export async function askingAI(question: string, retryCount = 2): Promise<Respon
     const firstResponse = await client.chat.completions.create({
       messages,
       model: "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free",
-      tools,
-      tool_choice: "auto",
+      tools
     });
 
     const responseMessage = firstResponse.choices[0]?.message;
