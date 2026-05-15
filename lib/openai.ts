@@ -95,7 +95,7 @@ export async function askingAI(question: string, retryCount = 2): Promise<Respon
     // 1. First call to determine which tool to use
     const firstResponse = await client.chat.completions.create({
       messages,
-      model: "deepseek/deepseek-v4-flash:free",
+      model: "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free",
       tools,
       tool_choice: "auto",
     });
