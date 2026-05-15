@@ -7,6 +7,7 @@ import { ProjectsData } from "@/data/projectdata";
 
 // OpenAI client initialization
 const client = new OpenAI({
+  baseURL: "https://openrouter.ai/api/v1",
   apiKey: process.env.NEXT_PUBLIC_OPENAI_API_KEY as string, // Type assertion for env variable
   dangerouslyAllowBrowser: true,
 });
@@ -181,7 +182,7 @@ export async function askingAI(question: string, retryCount = 3): Promise<Respon
   try {
     const chatCompletion = await client.chat.completions.create({
       messages,
-      model: "o3-mini",
+      model: "deepseek/deepseek-v4-flash:free",
       tools,
       tool_choice: "auto",
     });
